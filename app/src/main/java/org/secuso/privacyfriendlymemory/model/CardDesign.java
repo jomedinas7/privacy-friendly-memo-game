@@ -25,11 +25,7 @@ public enum CardDesign {
     }
 
     public boolean isCustom(){
-        if(value == 3) {
-            return true;
-        }else{
-            return false;
-        }
+        return value == 3;
     }
 
     public static CardDesign get(int value){

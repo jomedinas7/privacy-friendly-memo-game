@@ -17,7 +17,7 @@ public class MemoGameHighscore {
     static {
         baseScoreMapping.put(MemoGameDifficulty.Easy, 3000);
         baseScoreMapping.put(MemoGameDifficulty.Moderate, 9000);
-        baseScoreMapping.put(MemoGameDifficulty.Hard, 50000);
+        baseScoreMapping.put(MemoGameDifficulty.Hard, 50_000);
     }
 
     public MemoGameHighscore(MemoGameDifficulty difficulty, int time, int tries, boolean isValid) {

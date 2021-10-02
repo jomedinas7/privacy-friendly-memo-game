@@ -12,7 +12,7 @@ public class MemoGameTimer {
     private Timer internalTimer;
     private AtomicBoolean timerRunning = new AtomicBoolean(false);
     private int time = 0;
-    private final int WAIT_TIME = 1000;
+    private static int WAIT_TIME = 1000;
 
     private void init() {
         internalTimer = new Timer();
